@@ -20,9 +20,26 @@ a {
   color: #44AAEE;
 }
 
-.container {
-  width : 700;
-  margin-top: 50px;
+
+#left {
+  width: 35%;
+  float: left;
+  min-height: 600px;
+}
+
+#right {
+  width: 60%;
+  float: right;
+  min-height: 600px;
+}
+
+#wrapper {
+    margin-top: 50px;
+    padding: 20px;
+    width: 1000px;
+    margin: 70px auto;
+    border-radius: 2px;
+    background: rgba(175, 175, 175, 0.3);
 }
 
 .card {
@@ -30,7 +47,7 @@ a {
   text-align : center;
 /*  box-shadow: 2px 2px 3px #d2d1d1 ;
 */  padding : 20px 20px;
-  margin: 50px auto ;
+  margin: 20px auto ;
   border-radius: 3px
 }
 
@@ -67,14 +84,16 @@ a {
   border-spacing:2em;
 }
 
-.approved {
-  position : fixed;
-  bottom : 10px;
-  right : 10px;
+#pedobear {
+  background: none;
+  text-align: center;
+}
+
+.sponsors {
   width: 200px;
 }
 
-.footer {
+#footer {
   padding: 10px;
   text-align: center;
   background: #FFFFFF;
@@ -92,4 +111,8 @@ a {
 .heart:hover {
   color : #6940D6;
   font-size: 2em;
+}
+
+.clear {
+  clear: both;
 }
